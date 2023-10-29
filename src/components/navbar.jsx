@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       {/* first class */}
-      <nav className="main-nav">
+      <nav className="main-nav relative">
         {/*logo is here*/}
         <div className="logo">
           <h2>
