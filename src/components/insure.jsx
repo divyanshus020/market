@@ -11,7 +11,7 @@ function Insure() {
 
             {/* icons */}
 
-            <div className='landing_page  w-full  relative  top-[640px]'>
+            <div className='landing_page  w-full  relative  top-[40px]'>
                 {/* first bar */}
                 <div className='flex justify-evenly pb-20 ' id='landing_1'>
 
@@ -68,7 +68,7 @@ function Insure() {
             </div>
 
             {/* hero section 1 */}
-            <div className='hero_seaction_1 w-full  relative  top-[640px] '>
+            <div className='hero_seaction_1 w-full  relative  top-[140px] '>
 
                 <div className='hero_section_child1 flex justify-around'>
                     {/* responsive code take from here */}
@@ -108,8 +108,7 @@ function Insure() {
 
             {/*second hero section 2  */}
 
-            <div className='hero_seaction_1 w-full  relative  top-[640px] '>
-
+            <div className='hero_seaction_1 w-full  relative  top-[140px] '>
                 <div className='hero_section_child1 flex justify-around mt-[50px] w-full'>
                     {/* responsive code take from here */}
                     <div className=''>
@@ -127,16 +126,6 @@ function Insure() {
                         <div className='mr-20'>
                             <img src="https://finizoninsurance.com/assets/img/feature_illustration_1.svg" alt="" />
                         </div>
-                    </div>
-                </div>
-
-                <div className='hero_section_child1'>
-                    <div className=''>
-                        
-                    </div>
-
-                    <div className=''>
-
                     </div>
                 </div>
             </div>
