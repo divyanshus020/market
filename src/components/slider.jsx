@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import Banner1 from "../assets/assets/banner1";
 
 const ImageSlider = () => {
   const images = [
-    "https://plus.unsplash.com/premium_photo-1661353245572-5e41f6208de8?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2xpZGVyfGVufDB8fDB8fHww",
+    "<Banner1/>",
     "image2.jpg",
     "image3.jpg",
     // Add more image URLs as needed
@@ -19,10 +20,22 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="w-full">
-      <button onClick={prevSlide}>Previous</button>
-      <img src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
-      <button onClick={nextSlide}>Next</button>
+    <div className="w-full flex mt-36 mx-20">
+      <div className="w-1/2 mt-28">
+        <p className="text-7xl font-bold">
+          Offer a comprehensive financial solution to your customers{" "}
+          <span className="text-cyan-600">
+            & drive your business as trusted partner
+          </span>
+        </p>
+        <p className="text-yellow-600 text-5xl my-4">join as partner :</p>
+        <button className="bg-yellow-600 p-4 text-white text-2xl rounded-lg">
+          come join us
+        </button>
+      </div>
+      <div className="w-1/2">
+        <Banner1 />
+      </div>
     </div>
   );
 };
