@@ -13,7 +13,7 @@ function PartnerSlider() {
       return newIndex;
     });
   };
-  const nextImg = () => {
+  const nextImg = () => { 
     setIndex(() => {
       const newIndex = (index + 1) % img.length;
       return newIndex;
@@ -21,7 +21,7 @@ function PartnerSlider() {
   };
 
   return (
-    <div className="flex justify-center items-center w-full">
+    <div className="flex justify-center items-center w-full relative top-[200px] h-[60vh]">
       <div className="relative w-3/4 ">
         <img src={img[index]} />
         <button

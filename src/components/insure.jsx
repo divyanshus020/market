@@ -88,28 +88,20 @@ function Insure() {
                     </div>
 
                     <div className=''>
-                        <div className=''>
+                        <div className='lg:w-2/2'>
                             <img src="https://finizoninsurance.com/assets/img/protect_right_illustration.svg" alt="" />
                         </div>
                     </div>
                 </div>
 
-                <div className='hero_section_child1'>
-                    <div className=''>
-
-                    </div>
-
-                    <div className=''>
-
-                    </div>
-                </div>
             </div>
 
 
             {/*second hero section 2  */}
 
-            <div className='hero_seaction_1 w-full  relative  top-[140px] '>
-                <div className='hero_section_child1 flex justify-around mt-[50px] w-full'>
+            <div className='hero_seaction_2 w-full  relative  top-[165px] '>
+
+                <div className='hero_section_child1  flex justify-around w-full p-20'>
                     {/* responsive code take from here */}
                     <div className=''>
 
@@ -123,13 +115,25 @@ function Insure() {
                     </div>
 
                     <div className=''>
-                        <div className='mr-20'>
-                            <img src="https://finizoninsurance.com/assets/img/feature_illustration_1.svg" alt="" />
+                        <div className='lg:w-2/2'>
+                            <img src="https://finizoninsurance.com/assets/img/feature_illustration_1.svg" alt="" className='w-[300px] '/>
                         </div>
                     </div>
                 </div>
             </div>
 
+
+            {/* third hero section */}
+
+            <div className='heroSection3'>
+                <div className=''>
+                    <img src="" alt="" />
+                </div>
+
+                <div className=''>
+                    
+                </div>
+            </div>
         </section>
 
     )
