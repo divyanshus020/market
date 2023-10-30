@@ -44,7 +44,7 @@ const ImageSlider = () => {
       </div>
 
       <div className="lg:w-1/2">
-          <img src="https://finizon.com/media/admin/banner/insurance_page_banner1.svg" alt="hero-logo" className="ml-auto" />
+          <img src="https://finizon.com/media/admin/banner/insurance_page_banner1.svg" alt="hero-logo" className="ml-auto"/>
       </div>
       </div>
     </section>
