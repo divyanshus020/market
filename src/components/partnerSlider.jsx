@@ -13,25 +13,24 @@ function PartnerSlider() {
       return newIndex;
     });
   };
-  const nextImg = () => { 
+  const nextImg = () => {
     setIndex(() => {
       const newIndex = (index + 1) % img.length;
       return newIndex;
     });
   };
-
   return (
-    <div className="flex justify-center items-center w-full relative top-[200px] h-[60vh]">
+    <div className="flex justify-center items-center w-full mt-24">
       <div className="relative w-3/4 ">
         <img src={img[index]} />
         <button
-          className="bg-cyan-500 absolute left-0 top-2/4 w-12 h-12 flex justify-center items-center text-white rounded-full"
+          className="bg-cyan-500 absolute left-0 top-2/4 w-12 h-12 text-2xl flex justify-center items-center text-white rounded-full"
           onClick={prevImg}
         >
           <AiOutlineLeft />
         </button>
         <button
-          className="bg-cyan-500 absolute right-0 top-2/4 w-12 h-12 flex justify-center items-center text-white rounded-full"
+          className="bg-cyan-500 absolute right-0 top-2/4 w-12 h-12 text-2xl flex justify-center items-center text-white rounded-full"
           onClick={nextImg}
         >
           <AiOutlineRight />
