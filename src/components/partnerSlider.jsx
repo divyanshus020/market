@@ -20,9 +20,12 @@ function PartnerSlider() {
     });
   };
   return (
-    <div className="flex justify-center items-center w-full mt-24">
+    <div className="flex justify-center items-center w-full mt-[300px]">
       <div className="relative w-3/4 ">
-        <img src={img[index]} />
+        <h1 className="text-5xl font-medium mb-8 ">
+          Meet Our <span className="text-cyan-600">Partners</span>
+        </h1>
+        <img src={img[index]} className="w-full h-[50vh]" />
         <button
           className="bg-cyan-500 absolute left-0 top-2/4 w-12 h-12 text-2xl flex justify-center items-center text-white rounded-full"
           onClick={prevImg}
