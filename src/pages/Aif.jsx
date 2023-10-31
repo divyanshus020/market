@@ -1,7 +1,12 @@
 import React from "react";
+import Card from "../components/Card";
 
 function Aif() {
-  return <div>This is Aif page</div>;
+  return (
+    <>
+      <Card />
+    </>
+  );
 }
 
 export default Aif;
