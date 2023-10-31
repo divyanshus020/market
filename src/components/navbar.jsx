@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../components/navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
@@ -10,10 +11,12 @@ const Navbar = () => {
       <nav className="main-nav relative ">
         {/*logo is here*/}
         <div className="logo">
-          <h2>
-            <span>M</span>arket
-            <span>M</span>agnet
-          </h2>
+          <Link to="/">
+            <h2>
+              <span>M</span>arket
+              <span>M</span>agnet
+            </h2>
+          </Link>
         </div>
 
         {/* second class */}
@@ -25,10 +28,10 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <a href="#">INSURENCE</a>
+              <Link to="/insurance">INSURENCE</Link>
             </li>
             <li>
-              <a href="#">WEALTH</a>
+              <Link to="/aif">WEALTH</Link>
             </li>
           </ul>
         </div>
