@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../components/navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -45,14 +47,14 @@ const Navbar = () => {
                 <FaTwitter />
               </a>
             </li>
-            <li>
+            <li className="instagram">
               <a href="#">
-                <FaTwitter />
+                <FaInstagram />
               </a>
             </li>
-            <li>
+            <li className="facebook">
               <a href="#">
-                <FaTwitter />
+                <FaFacebook/>
               </a>
             </li>
           </ul>
