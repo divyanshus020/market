@@ -64,6 +64,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .switch_1{ 
+    width: 50%;
+  }
+}
+
 .alert_1{
   box-shadow: 0 4px 8px #0000003d;
 }

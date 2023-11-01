@@ -59,24 +59,26 @@ function Card() {
     setItem(filterValue);
   };
   return (
-    <div  data-aos="fade-up">
-      <div className="flex justify-center my-10 gap-4">
-        <button
-          className="text-3xl mx-4"
-          onClick={() => {
-            filterCard("available");
-          }}
-        >
-          Available
-        </button>
-        <button
-          className="text-3xl mx-4"
-          onClick={() => {
-            filterCard("funded");
-          }}
-        >
-          funded
-        </button>
+    <div data-aos="fade-up" className="">
+      <div className="flex justify-center my-20 gap-4 ">
+        <div className="flex justify-around bg-white w-[30%] h-20 rounded-full cursor-pointer switch_1">
+          <button
+            className="text-3xl mx-4 hover:bg-[#41ce8e] rounded-full w-[30%]"
+            onClick={() => {
+              filterCard("available");
+            }}
+          >
+            Available
+          </button>
+          <button
+            className="text-3xl mx-4 hover:bg-[#41ce8e] w-[30%] rounded-full"
+            onClick={() => {
+              filterCard("funded");
+            }}
+          >
+            funded
+          </button>
+        </div>
       </div>
 
       <div className="grid justify-center" data-aos="fade-up">
