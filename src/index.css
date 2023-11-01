@@ -52,6 +52,11 @@
     }
 }
 
+@media (max-width: 600px) {
+  .product_1 { grid-template-columns: repeat(2, 1fr); }
+}
+
 .alert_1{
   box-shadow: 0 4px 8px #0000003d;
 }
+

@@ -28,6 +28,7 @@ function CompanyLogo() {
     religare_logo,
     Reliance,
   ];
+  
   return (
     <div className=" w-full flex justify-center mt-40">
       <div className="w-3/4 grid grid-cols-4 gap-8">

@@ -40,7 +40,7 @@ function ProductLogo() {
     },
   ];
   return (
-    <div className=" pb-20 w-3/4 grid grid-cols-4 gap-8 " id="landing_1">
+    <div className=" pb-20 w-3/4 grid grid-cols-4 gap-8 product_1" id="landing_1">
       {products.map((product) => (
         <div
           className="text-[16px] text-center w-40 h-40 m-8 flex flex-col items-center justify-center "

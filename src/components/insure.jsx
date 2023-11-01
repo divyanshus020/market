@@ -202,7 +202,6 @@ function Insure() {
       </section>
 
       {/* same for all alert page */}
-
       <section className="py-5 relative top-[250px] flex justify-center">
         <div className="flex justify-evenly rounded-3xl bg-[#fff] z-1 alert_1 xl:w-[80%]">
           <div>
