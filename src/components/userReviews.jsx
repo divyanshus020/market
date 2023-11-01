@@ -51,7 +51,7 @@ function UserReviews() {
     });
   };
   return (
-    <div className="w-full flex justify-center items-center">
+    <div className="w-full flex justify-center items-center" data-aos="fade-up">
       <button className="text-5xl  hover:text-gray-500" onClick={prevComment}>
         <FaChevronLeft />
       </button>

@@ -59,7 +59,7 @@ function Card() {
     setItem(filterValue);
   };
   return (
-    <div>
+    <div  data-aos="fade-up">
       <div className="flex justify-center my-10 gap-4">
         <button
           className="text-3xl mx-4"
@@ -79,7 +79,7 @@ function Card() {
         </button>
       </div>
 
-      <div className="grid justify-center">
+      <div className="grid justify-center" data-aos="fade-up">
         <div className=" grid grid-cols-1 place-content-center  lg:grid-cols-3 md:grid-cols-2 cards_1">
           {item.map((property) => (
             <div className=" m-8 w-[350px] bg-gray-200 rounded-2xl pb-4  transition duration-500 hover:scale-90">

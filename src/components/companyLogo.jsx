@@ -30,7 +30,7 @@ function CompanyLogo() {
   ];
   
   return (
-    <div className=" w-full flex justify-center mt-40">
+    <div className=" w-full flex justify-center mt-40"  data-aos="fade-up">
       <div className="w-3/4 grid grid-cols-4 gap-8">
         {logos.map((logo) => (
           <img

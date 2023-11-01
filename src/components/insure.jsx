@@ -12,7 +12,7 @@ function Insure() {
         <ProductLogo />
       </div>
 
-      <section id="home" className="py-5">
+      <section id="home" className="py-5"  data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className="mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="text-[40px] text-[#465a65]  font-semibold">
@@ -43,7 +43,7 @@ function Insure() {
 
       {/*second hero section 2  */}
 
-      <section id="home" className="py-5 my-20">
+      <section id="home" className="py-5 my-20"  data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className=" mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="max-w-full text-[2.9rem] leading-none text-gray-900 font-bold font-sans text-center lg:text-5xl lg:text-center lg:leading-tight mb-7">
@@ -68,7 +68,7 @@ function Insure() {
 
       {/* third hero section */}
 
-      <section id="home" className="py-5 my-20">
+      <section id="home" className="py-5 my-20" data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className="lg:w-2/2">
             <img
@@ -93,7 +93,7 @@ function Insure() {
 
       {/* fourth hero section */}
 
-      <section id="home" className="py-5 my-20">
+      <section id="home" className="py-5 my-20" data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row gap-10">
           <div className=" mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="max-w-full text-[2.9rem] leading-none text-gray-900 font-bold font-sans text-center lg:text-5xl lg:text-center lg:leading-tight mb-7">
@@ -119,7 +119,7 @@ function Insure() {
 
       {/* fifth hero section */}
 
-      <section id="home" className="py-5 my-20">
+      <section id="home" className="py-5 my-20" data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className="lg:w-2/2">
             <img
@@ -144,7 +144,7 @@ function Insure() {
       </section>
 
       {/*lunching landing page */}
-      <section id="home" className="py-5 my-20">
+      <section id="home" className="py-5 my-20" data-aos="fade-up">
         <section className="pcontainer_1 flex flex-wrap items-center justify-evenly mx-auto mt-10 md:px-12 md:flex-row">
           <div className="lg:w-2/2">
             <img
@@ -202,7 +202,7 @@ function Insure() {
       </section>
 
       {/* same for all alert page */}
-      <section className="py-5 flex justify-center">
+      <section className="py-5 flex justify-center" data-aos="fade-up">
         <div className="flex justify-evenly rounded-3xl bg-[#fff] z-1 alert_1 xl:w-[80%]">
           <div>
             <img

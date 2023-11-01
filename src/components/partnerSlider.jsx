@@ -20,7 +20,7 @@ function PartnerSlider() {
     });
   };
   return (
-    <div className="flex justify-center items-center w-full mt-[300px]">
+    <div className="flex justify-center items-center w-full"  data-aos="fade-up">
       <div className="relative w-3/4 ">
         <h1 className="text-5xl font-medium mb-8 ">
           Meet Our <span className="text-cyan-600">Partners</span>
