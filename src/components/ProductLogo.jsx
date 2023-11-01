@@ -43,7 +43,7 @@ function ProductLogo() {
     <div className=" pb-20 w-3/4 grid grid-cols-4 gap-8 product_1" id="landing_1">
       {products.map((product) => (
         <div
-          className="text-[16px] text-center w-40 h-40 m-8 flex flex-col items-center justify-center "
+          className="text-[16px] text-center w-50 h-40 m-8 flex flex-col items-center justify-center "
           key={product.name}
         >
           <img src={product.img} alt={product.name} className="w-1/2 mb-4" />

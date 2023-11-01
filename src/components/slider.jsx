@@ -23,7 +23,7 @@ const ImageSlider = () => {
             </span>
           </h1>
 
-          <p className="max-w-xl text-center text-gray-500 lg:text-left lg:max-w-md">
+          <p className="max-w-xl text-center text-gray-500 lg:text-left lg:max-w-md text-[18px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
             ducimus? Ad doloribus officia provident laboriosam.
           </p>
@@ -31,6 +31,7 @@ const ImageSlider = () => {
       {/* <div className="lg:w-1/2">
           <img src="https://finizon.com/media/admin/banner/insurance_page_banner1.svg" alt="hero-logo" className="ml-auto"/>
       </div> */}
+
           <div className="flex justify-center mt-14 lg:justify-start">
             <button
               type="button"
@@ -45,7 +46,7 @@ const ImageSlider = () => {
           <img
             src="https://finizon.com/media/admin/banner/insurance_page_banner1.svg"
             alt="hero-logo"
-            className="ml-auto"
+            className="ml-auto w-[370px]"
           />
         </div>
       </div>
