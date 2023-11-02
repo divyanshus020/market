@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Insure from "./components/insure.jsx";
 import Aif from "./pages/Aif.jsx";
 import Home from "./pages/Home.jsx";
+import Insider from "./components/insider.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/aif",
         element: <Aif />,
+      },
+      {
+        path: "/aif/:id",
+        element: <Insider />,
       },
     ],
   },
