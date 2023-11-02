@@ -76,6 +76,12 @@
   }
 }
 
+@media (max-width: 600px) {
+  .why_child{ 
+    
+  }
+}
+
 .alert_1{
   box-shadow: 0 4px 8px #0000003d;
 }

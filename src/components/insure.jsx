@@ -56,7 +56,7 @@ function Insure() {
             </p>
           </div>
 
-          <div className="lg:w-2/2">
+          <div className="lg:w-2/2 why_child">
             <img
               src="https://finizoninsurance.com/assets/img/feature_illustration_1.svg"
               alt="hero-logo"
