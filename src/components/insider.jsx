@@ -1,51 +1,41 @@
-import React from "react";
+import { useState } from "react";
+import { properties } from "./properties";
+import { useParams } from "react-router-dom";
 function Insider() {
+  const { id } = useParams();
+  const value = properties.find((pro) => id == pro.id);
   return (
     <div>
       <div className="image-grid">
         <img
           className="image-grid-col-2 image-grid-row-2"
-          src="https://stake-dev-env.s3.eu-west-1.amazonaws.com/properties/151/images/2187/2400px_main_BJ2g8ePWihsXN2xMvqjg5r6KRvxfziHakackVGpE.jpeg"
+          src={value.subImgs[0].img1}
           alt="architecture"
         />
-        <img
-          src="https://stake-dev-env.s3.eu-west-1.amazonaws.com/properties/151/images/2186/2400px_main_bpDpfcxJrKYxAXJqhgf1S9uxk81cTzqyDM346v7O.jpeg"
-          alt="architecture"
-        />
-        <img src="https://stake-dev-env.s3.eu-west-1.amazonaws.com/properties/151/images/2188/2400px_main_EXGw8vEB9UbGL3YP9K1oREe0C0AvRDtCj36mdGiV.jpeg" />
-        <img
-          src="https://stake-dev-env.s3.eu-west-1.amazonaws.com/properties/151/images/2189/2400px_main_xs4IZqIQbdwI29G4Mt57hB40glTd97AZJXGa6XAN.jpeg"
-          alt="architecture"
-        />
+        <img src={value.subImgs[0].img2} alt="architecture" />
+        <img src={value.subImgs[0].img3} />
+        <img src={value.subImgs[0].img4} alt="architecture" />
         <img
           src="https://stake-dev-env.s3.eu-west-1.amazonaws.com/properties/151/images/2190/2400px_main_tq61PpRWn6ufEknHv2CZjfzoKmLeWWlsgLenrbKU.jpeg"
           alt="architecture"
         />
       </div>
-
       <div className="w-full flex justify-center mt-[-50px]">
         <div className="w-[80%] bg-white rounded-2xl aif_1 h-[110vh] insider_father">
+          <div className="text-center my-6">
+            <h1 className="text-[40px] font-semibold text-gray-800">
+              {value.text}
+            </h1>
+          </div>
           <div className="">
             <div className="text-center">
-              <h2 className="text-[25px]">Properity price</h2>
+              <h2 className="text-[25px] text-gray-600 tracking-normal">
+                Properity price
+              </h2>
               <div>
-                <h2 className="text-[#41ce8e] text-[20px]">AED 1,169,888</h2>
-              </div>
-
-              <div className="flex justify-center">
-                <div className="mt-10">
-                  <input
-                    type="range"
-                    id="fixedRange"
-                    min="0"
-                    max="100"
-                    value="30"
-                    step="1"
-                    disabled
-                    className="flex w-[200px]  bg-[#41ce8e]"
-                  />
-                  <input type="number" id="rangeValue" value="30" disabled />
-                </div>
+                <h2 className="text-[#41ce8e] text-[23px] tracking-wide">
+                  {value.amount} RS
+                </h2>
               </div>
 
               <div className="flex justify-center mt-8 lg:justify-center">
@@ -56,12 +46,6 @@ function Insider() {
                   Enroll now
                 </button>
               </div>
-            </div>
-
-            <div className="text-center my-6">
-              <h1 className="text-[30px]">
-                Studio in Upside Living, Business Bay (1116)
-              </h1>
             </div>
 
             <div className="w-full flex justify-center my-10">
@@ -240,17 +224,7 @@ function Insider() {
               <h1 className="text-[20px] my-6 mx-6">Property Overview</h1>
               <div>
                 <p className="text-[15px] text-[#5e6475] mx-6">
-                  Stake is offering an opportunity to invest in a studio
-                  apartment in Upside Living, a state-of-the-art tower in
-                  Business Bay. Upside Living is a 29-story residential complex,
-                  with striking contemporary architecture and interior fit-out.
-                  Completed in Q3 2023, the project was developed by SRG, a
-                  well-established real-estate company in Dubai. Business Bay
-                  has confirmed Dubai’s stature as the region’s business capital
-                  since its first towers were handed over in 2008. Built around
-                  the Dubai Water Canal, the district now consists of 160+
-                  towers from commercial and residential towers, to 4- and
-                  5-star hotels
+                  {value.overview}
                 </p>
               </div>
             </div>
