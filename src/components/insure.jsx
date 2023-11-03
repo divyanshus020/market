@@ -74,7 +74,7 @@ function Insure() {
             <img
               src="https://finizoninsurance.com/assets/img/feature_illustration_2.svg"
               alt="hero-logo"
-              className="ml-auto"
+              className="ml-auto" 
             />
           </div>
 
@@ -104,7 +104,7 @@ function Insure() {
               The platform gives much more than jst insurance. Use our
               proprietary tools to find the right protection solutions, wellness
               programs, emergency assistance programs etc.
-            </p>
+            </p>  
           </div>
 
           <div className="lg:w-2/2">
@@ -128,6 +128,9 @@ function Insure() {
               className="ml-auto"
             />
           </div>
+
+
+        
 
           <div className=" mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="max-w-full text-[2.9rem] leading-none text-gray-900 font-bold font-sans text-center lg:text-5xl lg:text-center lg:leading-tight mb-7">
