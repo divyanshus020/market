@@ -23,7 +23,7 @@ const ImageSlider = () => {
             </span>
           </h1>
 
-          <p className="max-w-xl text-center text-gray-500 lg:text-left lg:max-w-md text-[18px]">
+          <p className="max-w-xl text-center text-gray-500 lg:text-left lg:max-w-md text-[20px]  leading-10">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
             ducimus? Ad doloribus officia provident laboriosam.
           </p>

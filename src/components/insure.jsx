@@ -206,7 +206,7 @@ function Insure() {
 
       {/* same for all alert page */}
       <section className="py-5 flex justify-center" data-aos="fade-up">
-        <div className="flex justify-evenly rounded-3xl bg-[#fff] z-1 alert_1 xl:w-[80%]">
+        <div className="flex justify-evenly rounded-3xl bg-[#fff] z-1 alert_1 xl:w-[80%] alert_bar">
           <div>
             <img
               src="https://finizon.com/assets/img/grow_investment_icon.svg"
