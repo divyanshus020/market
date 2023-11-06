@@ -6,7 +6,7 @@ function Form() {
     return (
         <div class=" max-w-md mx-auto bg-white p-8 rounded-3xl shadow-lg">
             <h2 class="text-2xl font-semibold mb-4">Please fill the form below</h2>
-            <form method='post' action='https://script.google.com/macros/s/AKfycbw3-OzsnbdjpUqruWIww6BJZ24Ov1Vu7gfZz-69R-KyKKFqHe43TCupqFYXw_U8ac4TQg/exec' >
+            <form method='post' action='https://script.google.com/macros/s/AKfycbxQYCgMOBOiMI06A6csNsWxCD-pxMmakdtjWbvbvw7nbrmbye7rcezZ9DTJHCBhwszu/exec' >
                 <div class="mb-4">
                     <label for="name" class="block text-gray-600">Name</label>
                     <input type="text" id="name" name="name" class="w-full p-2 border rounded focus:outline-none focus:border-blue-400" placeholder="John Doe" />
