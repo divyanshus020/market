@@ -1,6 +1,7 @@
 import React from "react";
 import ProductLogo from "./ProductLogo";
 import slider from "../components/slider";
+import Form from"../components/form";
 function Insure() {
   return (
     // father class wrapper
@@ -230,6 +231,7 @@ function Insure() {
           </div>
         </div>
       </section>
+      <Form/>
     </section>
   );
 }
