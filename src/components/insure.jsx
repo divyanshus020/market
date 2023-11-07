@@ -1,7 +1,7 @@
 import React from "react";
 import ProductLogo from "./ProductLogo";
-import slider from "../components/slider";
-import Form from"../components/form";
+import Form from "../components/form";
+import Button from "./button";
 function Insure() {
   return (
     // father class wrapper
@@ -13,7 +13,7 @@ function Insure() {
         <ProductLogo />
       </div>
 
-      <section id="home" className="py-5"  data-aos="fade-up">
+      <section id="home" className="py-5" data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className="mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="text-[40px] text-[#465a65]  font-semibold">
@@ -26,9 +26,7 @@ function Insure() {
               the right coverage for you in under 4 mins
             </p>
 
-            <button className="bg-[#e27e28] hover:bg-blue-700 text-white font-bold py-5 px-12 rounded">
-              <h2 className="text-[15px]">Enroll now</h2>
-            </button>
+            <Button text={"Enroll Now"} />
           </div>
 
           <div className="">
@@ -44,7 +42,7 @@ function Insure() {
 
       {/*second hero section 2  */}
 
-      <section id="home" className="py-5 my-20"  data-aos="fade-up">
+      <section id="home" className="py-5 my-20" data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className=" mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="max-w-full text-[2.9rem] leading-none text-gray-900 font-bold font-sans text-center lg:text-5xl lg:text-center lg:leading-tight mb-7">
@@ -75,7 +73,7 @@ function Insure() {
             <img
               src="https://finizoninsurance.com/assets/img/feature_illustration_2.svg"
               alt="hero-logo"
-              className="ml-auto" 
+              className="ml-auto"
             />
           </div>
 
@@ -105,7 +103,7 @@ function Insure() {
               The platform gives much more than jst insurance. Use our
               proprietary tools to find the right protection solutions, wellness
               programs, emergency assistance programs etc.
-            </p>  
+            </p>
           </div>
 
           <div className="lg:w-2/2">
@@ -129,9 +127,6 @@ function Insure() {
               className="ml-auto"
             />
           </div>
-
-
-        
 
           <div className=" mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="max-w-full text-[2.9rem] leading-none text-gray-900 font-bold font-sans text-center lg:text-5xl lg:text-center lg:leading-tight mb-7">
@@ -194,12 +189,7 @@ function Insure() {
             </div>
 
             <div className="flex justify-center mt-14 lg:justify-start">
-              <button
-                type="button"
-                className="text-white bg-[#e27e28] font-medium rounded-lg px-20 py-7 text-center hover:bg-indigo-500 hover:drop-shadow-md transition duration-300 ease-in-out"
-              >
-                learn more
-              </button>
+              <Button text={"Learn More"} />
             </div>
           </div>
         </section>
@@ -222,16 +212,10 @@ function Insure() {
           </div>
 
           <div className="flex flex-col justify-center">
-            <button
-              type="button"
-              className="text-white bg-[#e27e28] font-medium rounded-lg px-20 py-7 text-center hover:bg-indigo-500 hover:drop-shadow-md transition duration-300 ease-in-out text-[12px]"
-            >
-              Get Started
-            </button>
+            <Button text={"Get Started"} />
           </div>
         </div>
       </section>
-      <Form/>
     </section>
   );
 }

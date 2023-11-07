@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "./button";
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,17 +29,12 @@ const ImageSlider = () => {
             ducimus? Ad doloribus officia provident laboriosam.
           </p>
 
-      {/* <div className="lg:w-1/2">
+          {/* <div className="lg:w-1/2">
           <img src="https://finizon.com/media/admin/banner/insurance_page_banner1.svg" alt="hero-logo" className="ml-auto"/>
       </div> */}
 
           <div className="flex justify-center mt-14 lg:justify-start">
-            <button
-              type="button"
-              className="text-white bg-[#e27e28] font-medium rounded-lg px-20 py-7 text-center hover:bg-indigo-500 hover:drop-shadow-md transition duration-300 ease-in-out"
-            >
-              learn more
-            </button>
+            <Button text={"Learn More"} />
           </div>
         </div>
 

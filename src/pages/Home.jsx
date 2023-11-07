@@ -4,7 +4,7 @@ import PartnerSlider from "../components/partnerSlider";
 import UserReviews from "../components/userReviews";
 import CompanyLogo from "../components/companyLogo";
 import ProductLogo from "../components/ProductLogo";
-import Why from "../components/why"
+import Why from "../components/why";
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
       <div className="landing_page  w-full mt-20 flex justify-center items-center">
         <ProductLogo />
       </div>
-      <Why/>
+      <Why />
       <PartnerSlider />
       <UserReviews />
       <CompanyLogo />

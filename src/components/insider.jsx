@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { properties } from "./properties";
 import { useParams } from "react-router-dom";
+import Button from "./button";
 function Insider() {
   const { id } = useParams();
   const value = properties.find((pro) => id == pro.id);
@@ -39,12 +40,7 @@ function Insider() {
               </div>
 
               <div className="flex justify-center mt-8 lg:justify-center">
-                <button
-                  type="button"
-                  className="text-white  bg-blue-900 font-medium rounded-lg px-10 py-5 text-center hover:bg-indigo-500 hover:drop-shadow-md transition duration-300 ease-in-out"
-                >
-                  Enroll now
-                </button>
+                <Button text={"Enroll Now"} />
               </div>
             </div>
 
