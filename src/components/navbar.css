@@ -13,8 +13,8 @@ html {
 
 body {
   /* border: 2px solid red; */
-  background-color: #ffefd5b7;
-  
+  /* background-color: #ffefd5b7; */
+  background-image:url(../assets/assets/background.svg);
   width: 100%;
   background-attachment: fixed;
   background-position: 50%;
