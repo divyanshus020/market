@@ -11,7 +11,6 @@ const Navbar = () => {
     <>
       {/* first class */}
 
-      
       <nav className="main-nav relative ">
         {/*logo is here*/}
         <div className="logo">
@@ -37,29 +36,15 @@ const Navbar = () => {
             <li>
               <Link to="/aif">WEALTH</Link>
             </li>
+            <a href="#aboutus">
+              <li>ABOUT US</li>
+            </a>
           </ul>
         </div>
 
         {/* third class is here */}
 
         <div className="social-media">
-          <ul className="social-media-desktop">
-            <li className="facebook">
-              <a href="#">
-                <FaTwitter />
-              </a>
-            </li>
-            <li className="instagram">
-              <a href="#">
-                <FaInstagram />
-              </a>
-            </li>
-            <li className="facebook">
-              <a href="#">
-                <FaFacebook/>
-              </a>
-            </li>
-          </ul>
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <GiHamburgerMenu />
