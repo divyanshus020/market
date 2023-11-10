@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "mukta";
 }
 
 html {
@@ -14,7 +13,7 @@ html {
 body {
   /* border: 2px solid red; */
   /* background-color: #ffefd5b7; */
-  background-image:url(../assets/assets/background.svg);
+  background-image: url(../assets/assets/background.svg);
   width: 100%;
   background-attachment: fixed;
   background-position: 50%;
@@ -50,6 +49,7 @@ li {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   position: fixed;
+  background-color: #141018;
   top: 0;
 }
 
@@ -61,6 +61,7 @@ li {
   align-items: center;
 }
 
+
 .menu-link {
   grid-column: 3/4;
 }
@@ -68,7 +69,8 @@ li {
 .menu-link ul {
   height: 10rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  color: #eee;
   align-items: center;
 }
 
@@ -116,7 +118,8 @@ li {
   color: rgba(0, 0, 3, 0.8);
   transition: 0.5s;
 }
-.menu-link ul li:hover > a {
+
+.menu-link ul li:hover>a {
   transform-origin: left;
   color: rgba(0, 0, 3, 1);
   text-decoration: underline;
@@ -165,12 +168,13 @@ li {
 }
 
 /* responsive css style  */
+
 @media (max-width: 1080px) {
   .main-nav {
     height: 8rem;
     grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
   }
-  
+
   .logo,
   .menu-link ul,
   .social-media ul {
@@ -184,12 +188,12 @@ li {
     height: 7rem;
     grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
   }
-  
+
   .menu-link {
     display: none;
     background-color: #eee;
   }
-  
+
   .logo,
   .social-media ul {
     height: 7rem;
@@ -246,7 +250,7 @@ li {
   }
 
   .social-media .hamburger-menu {
-    display: block;
+    display: none;
     font-size: 2.5rem;
   }
 }

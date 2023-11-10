@@ -4,12 +4,12 @@ function About() {
   return (
     <div
       id="aboutus"
-      className="w-full h-auto px-10 bg-black bg-opacity-80 p-12 text-justify"
+      className="w-full h-auto px-20  mb-20  p-12 text-justify"
     >
-      <h2 className="text-white text-4xl md:text-6xl text-center m-10 font-sans font-semibold">
+      <h2 className="text-black text-4xl md:text-6xl text-center m-10 font-sans font-semibold">
         About Us
       </h2>
-      <p className="text-gray-300 text-2xl md:text-3xl font-sans">
+      <p className="text-gray-800 text-2xl md:text-3xl font-sans">
         Financial SketchersTM is a Boutique Wealth Advisory Firm having its
         footprint in India, UAE, Singapore, Kenya, UK and Hong Kong. We work
         directly with our clients for catering to their specific needs for

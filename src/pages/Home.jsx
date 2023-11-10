@@ -8,7 +8,7 @@ import Why from "../components/why";
 import About from "../components/About";
 import Questions from "../components/Questions";
 import data from "../components/QuestionData";
-
+import Slash from "../components/slash";
 function Home() {
   const [questions, setQuestions] = useState(data);
   const [activeId, setActiveId] = useState(null);
@@ -22,6 +22,9 @@ function Home() {
       <div className="landing_page  w-full mt-20 flex justify-center items-center">
         <About />
       </div>
+      
+      {/* slash page come after service page */}
+      <Slash/>
       <Why />
       <PartnerSlider />
       <UserReviews />
