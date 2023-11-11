@@ -30,18 +30,12 @@ const Navbar = () => {
           }
         >
           <ul>
-
-
             <Link to="/insurance">
-              <li className="text-[#eee]">
-                INSURENCE
-              </li>
+              <li className="text-[#eee]">INSURENCE</li>
             </Link>
-            
+
             <Link to="/aif">
-              <li className="text-white">
-                WEALTH
-              </li>
+              <li className="text-white">WEALTH</li>
             </Link>
 
             <a href="#aboutus">
@@ -49,9 +43,8 @@ const Navbar = () => {
             </a>
 
             <a href="#portfolio">
-              <li>PORTFOLEO</li>
+              <li>PORTFOLIO</li>
             </a>
-
           </ul>
         </div>
 

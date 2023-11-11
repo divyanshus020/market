@@ -3,46 +3,54 @@ import React from "react";
 function Services() {
   const services = [
     {
-      img: "https://finizon.com/media/admin/verticalProducts/two_wheeler_insurance-img1_FwtLcqz.svg",
-      name: "Two-wheeler insurence",
+      img: "https://www.financialsketchers.com/images/fs/cp.png",
+      name: "Collaborative Portfolio",
+      text: "We collaborate multiple financial instruments & currencies to get you a high yield portfolio",
     },
     {
-      img: "https://finizon.com/media/admin/verticalProducts/car_insurance-img2.svg",
-      name: "Car insurence",
+      img: "https://www.financialsketchers.com/images/fs/hni1.png",
+      name: "HNI Exclusive",
+      text: " We work extensively for HNI’s and Super HNI’s Indians or NRI’s with our personal wealth advising",
     },
     {
-      img: "https://finizon.com/media/admin/verticalProducts/medical_insurance-img3.svg",
-      name: "Health insurence",
+      img: "https://www.financialsketchers.com/images/fs/me.png",
+      name: "Merging Economies",
+      text: "We could merge multiple economies across the globe to bring you a comprehensive financial solution",
     },
     {
-      img: "https://finizon.com/media/admin/verticalProducts/hospicash-img4.png",
-      name: "Hospicash",
+      img: "https://www.financialsketchers.com/images/fs/rs.png",
+      name: "Retire Safely",
+      text: "We plan for a sound and a high on rich lifestyle retirement for you",
     },
     {
-      img: "https://finizon.com/media/admin/verticalProducts/term_life_insurance-img5.svg",
-      name: "Life insurence",
+      img: "https://www.financialsketchers.com/images/fs/sp.png",
+      name: "Shield & Protect",
+      text: "We shield you and your family with absolute safeguarding strategies",
     },
     {
-      img: "https://finizon.com/media/admin/verticalProducts/insureright-img6.png",
-      name: "InsureFit 360",
+      img: "https://www.financialsketchers.com/images/fs/wb.png",
+      name: "Wealth Builder",
+      text: "We create overall wealth for you and your family over time.",
     },
   ];
   return (
-    <div
-      className=" pb-20 w-3/4 grid grid-cols-3 gap-8 product_1"
-      id="landing_1"
-      data-aos="fade-up"
-    >
-      {services.map((service) => (
-        <div
-          className="text-[16px] text-center w-50 h-40 m-8 flex flex-col items-center justify-center "
-          key={service.name}
-        >
-          <img src={services.img} alt={services.name} className="w-1/2 mb-4" />
-          <h3 className="text-2xl text-gray-600">{services.name}</h3>
-          <p>{services.details}</p>
-        </div>
-      ))}
+    <div className=" my-40 w-screen grid place-items-center">
+      <div className=" w-3/4 grid grid-cols-3 gap-16">
+        {services.map((service) => (
+          <div
+            className="text-center flex flex-col items-center justify-center "
+            key={service.name}
+          >
+            <img
+              src={service.img}
+              alt={service.name}
+              className="w-[100px] mb-4"
+            />
+            <h3 className="text-2xl text-gray-600">{service.name}</h3>
+            <p className="text-xl">{service.text}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
