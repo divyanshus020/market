@@ -29,13 +29,13 @@ const Navbar = () => {
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }
         >
-          <ul>
+          <ul className="">
             <Link to="/insurance">
-              <li className="text-[#eee]">INSURENCE</li>
+              <li className="">INSURENCE</li>
             </Link>
 
             <Link to="/aif">
-              <li className="text-white">WEALTH</li>
+              <li className="">WEALTH</li>
             </Link>
 
             <a href="#aboutus">
@@ -45,8 +45,14 @@ const Navbar = () => {
             <a href="#portfolio">
               <li>PORTFOLIO</li>
             </a>
+
+
+            <a href="#">
+              <li>BECOME A PARTNER</li>
+            </a>
           </ul>
         </div>
+
 
         {/* third class is here */}
 

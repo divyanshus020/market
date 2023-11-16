@@ -1,5 +1,5 @@
 import React from "react";
-
+import Img1 from "../assets/assets/blob vector.png"
 function About() {
   return (
     <div
@@ -9,6 +9,11 @@ function About() {
       <h2 className="text-black text-4xl md:text-6xl text-center m-10 font-sans font-semibold">
         About Us
       </h2>
+
+      <div className="skill-container-right">
+        <img src={Img1} className="blob-style" alt="" />
+      </div>
+
       <p className="text-gray-800 text-2xl md:text-3xl font-sans">
         Financial SketchersTM is a Boutique Wealth Advisory Firm having its
         footprint in India, UAE, Singapore, Kenya, UK and Hong Kong. We work

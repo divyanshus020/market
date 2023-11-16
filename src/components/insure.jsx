@@ -2,11 +2,17 @@ import React from "react";
 import ProductLogo from "./Services";
 import Form from "../components/form";
 import Button from "./button";
+import Slider from "./slider";
 function Insure() {
   return (
     // father class wrapper
+   <section className="wrapper_1">
+    {/* slider */}
+    <div>
+     <Slider /> 
+    </div>
 
-    <section className="wrapper_1">
+
       {/* icons */}
       <div className="landing_page  w-full mt-20 flex justify-center items-center">
         {/* first bar */}

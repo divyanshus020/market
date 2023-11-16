@@ -11,18 +11,6 @@
 }
 
 
-.btn {
-  @apply font-bold py-2 px-4 rounded;
-}
-
-.btn-blue {
-  @apply bg-blue-500 text-white;
-}
-
-.btn-blue:hover {
-  @apply bg-blue-700;
-}
-
 
 @media only screen and (min-width: 200px) and (max-width:767px) {
 
@@ -137,7 +125,7 @@
 #hero-section {
   background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
   min-height: 100vh;
-  background-color: #0e141c;
+  background-color: #0e141c;  
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,4 +161,29 @@
   }
 }
 
+/* about */
 
+
+.skill-container-right {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 50%;
+  position: relative;
+  justify-content: center;
+}
+
+.blob-style {
+  position: absolute;
+  z-index: -5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: blobAnimate 3s linear infinite;
+}
+@keyframes blobAnimate {
+  50% {
+    top: 64%;
+    left: 66%;
+  }
+}
