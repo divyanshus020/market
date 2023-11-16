@@ -7,6 +7,7 @@ import Insure from "./components/insure.jsx";
 import Aif from "./pages/Aif.jsx";
 import Home from "./pages/Home.jsx";
 import Insider from "./components/insider.jsx";
+import Partner from "./pages/Partner.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/aif/:id",
         element: <Insider />,
+      },
+      {
+        path: "/becomepartner",
+        element: <Partner />,
       },
     ],
   },
