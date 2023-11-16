@@ -1,5 +1,5 @@
 import React from "react";
-import ProductLogo from "./Services";
+import Services from "./Services";
 import Form from "../components/form";
 import Button from "./button";
 function Insure() {
@@ -10,7 +10,7 @@ function Insure() {
       {/* icons */}
       <div className="landing_page  w-full mt-20 flex justify-center items-center">
         {/* first bar */}
-        <ProductLogo />
+        <Services />
       </div>
 
       <section id="home" className="py-5" data-aos="fade-up">
