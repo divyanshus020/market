@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "../components/navbar.css";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
