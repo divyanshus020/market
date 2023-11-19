@@ -34,8 +34,8 @@ function Services() {
     },
   ];
   return (
-    <div className=" my-40 w-screen grid place-items-center">
-      <div className=" w-3/4 grid grid-cols-3 gap-16">
+    <div className=" my-40 w-screen grid place-items-center ">
+      <div className=" w-3/4 grid grid-cols-3 gap-16 service-grid">
         {services.map((service) => (
           <div
             className="text-center flex flex-col items-center justify-center "

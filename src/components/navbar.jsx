@@ -12,10 +12,10 @@ const Navbar = () => {
   console.log("hello world", location.pathname);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6">
-      <div className="flex items-center flex-shrink-0 text-gray-600 mr-6 px-20 lg:mr-72">
+    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg">
+      <div className="flex items-center flex-shrink-0 text-gray-600 mr-6  lg:mr-72">
         <Link to="/">
-        <img className="w-60" src={logo} alt="" />
+        <img className="w-80 h-[90px]" src={logo} alt="" />
         </Link>
       </div>
       <div className="block lg:hidden">
@@ -62,20 +62,20 @@ const Navbar = () => {
                   href="#aboutus"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600"
                 >
-                  About Us
+                 ABOUT US
                 </a>
                 <a
                   href="#portfolio"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600"
                 >
-                  Portfolio
+                  PORTFOLIO
                 </a>
               </li>
             )}
 
             <Link to="/becomepartner">
               <li className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600">
-                Become Partner
+                BECOME PARTNER
               </li>
             </Link>
           </ul>

@@ -19,6 +19,9 @@ function Insure() {
         <Services />
       </div>
 
+      <div className="border-2 border-dotted">
+      </div>
+
       <section id="home" className="py-5" data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className="mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
@@ -39,16 +42,18 @@ function Insure() {
             <div className="lg:w-2/2">
               <img
                 src="https://finizoninsurance.com/assets/img/protect_right_illustration.svg"
-                alt=""
+                alt="" className="w-[280px]"
               />
             </div>
           </div>
         </div>
       </section>
 
+      
+
       {/*second hero section 2  */}
 
-      <section id="home" className="py-5 my-20" data-aos="fade-up">
+      <section id="home" className="py-5 my-20 bg-[#fb923c]" data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row">
           <div className=" mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="max-w-full text-[2.9rem] leading-none text-gray-900 font-bold font-sans text-center lg:text-5xl lg:text-center lg:leading-tight mb-7">
@@ -65,7 +70,7 @@ function Insure() {
             <img
               src="https://finizoninsurance.com/assets/img/feature_illustration_1.svg"
               alt="hero-logo"
-              className="ml-auto"
+              className="ml-auto w-[280px] "
             />
           </div>
         </div>
@@ -79,7 +84,7 @@ function Insure() {
             <img
               src="https://finizoninsurance.com/assets/img/feature_illustration_2.svg"
               alt="hero-logo"
-              className="ml-auto"
+              className="ml-auto w-[280px]"
             />
           </div>
 
@@ -98,14 +103,14 @@ function Insure() {
 
       {/* fourth hero section */}
 
-      <section id="home" className="py-5 my-20" data-aos="fade-up">
+      <section id="home" className="py-5 my-20 bg-[#fb923c]" data-aos="fade-up">
         <div className="container_1 flex flex-wrap items-center justify-around mx-auto mt-10 md:px-12 md:flex-row gap-10">
           <div className=" mb-14 lg:mb-0 lg:w-2/2 w-[500px]">
             <h1 className="max-w-full text-[2.9rem] leading-none text-gray-900 font-bold font-sans text-center lg:text-5xl lg:text-center lg:leading-tight mb-7">
               Assistance On-the-Go
             </h1>
 
-            <p className="max-w-full text-center text-gray-500 lg:text-right lg:max-w-4xl text-[20px]">
+            <p className="max-w-full text-center text-gray-500 lg:text-center lg:max-w-4xl text-[20px]">
               The platform gives much more than jst insurance. Use our
               proprietary tools to find the right protection solutions, wellness
               programs, emergency assistance programs etc.
@@ -116,7 +121,7 @@ function Insure() {
             <img
               src="https://finizoninsurance.com/assets/img/feature_illustration_3.svg"
               alt="hero-logo"
-              className="ml-auto"
+              className="ml-auto w-[280px]"
             />
           </div>
         </div>
@@ -130,7 +135,7 @@ function Insure() {
             <img
               src="https://finizoninsurance.com/assets/img/feature_illustration_4.svg"
               alt="hero-logo"
-              className="ml-auto"
+              className="ml-auto w-[280px]" 
             />
           </div>
 
@@ -139,7 +144,7 @@ function Insure() {
               Digital Tools to personify your needs
             </h1>
 
-            <p className="max-w-full text-center text-gray-500 lg:text-right lg:max-w-4xl text-[20px]">
+            <p className="max-w-full text-center text-gray-500 lg:text-center lg:max-w-4xl text-[20px]">
               The platform gives much more than jst insurance. Use our
               proprietary tools to find the right protection solutions, wellness
               programs, emergency assistance programs etc.
@@ -147,6 +152,9 @@ function Insure() {
           </div>
         </div>
       </section>
+
+      <div className="border-2 border-dotted">
+      </div>
 
       {/*lunching landing page */}
       <section id="home" className="py-5 my-20" data-aos="fade-up">
@@ -172,7 +180,7 @@ function Insure() {
               <div className="flex gap-2">
                 <img
                   src="https://finizoninsurance.com/assets/img/right-arrow.png"
-                  alt=""
+                  alt="" className="w-8"
                 />
                 <p>Make decisions closely with the experts</p>
               </div>
@@ -180,7 +188,7 @@ function Insure() {
               <div className="flex gap-2">
                 <img
                   src="https://finizoninsurance.com/assets/img/right-arrow.png"
-                  alt=""
+                  alt="" className="w-8"
                 />
                 <p>Find the right financial products and tools for you</p>
               </div>
@@ -188,7 +196,7 @@ function Insure() {
               <div className="flex gap-2">
                 <img
                   src="https://finizoninsurance.com/assets/img/right-arrow.png"
-                  alt=""
+                  alt="" className="w-8"
                 />
                 <p>Never miss out on the best available offers</p>
               </div>
