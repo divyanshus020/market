@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../components/navbar.css";
-
+import logo from"../assets/assets/MARKETS.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -13,12 +13,9 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between flex-wrap p-6">
-      <div className="flex items-center flex-shrink-0 text-gray-600 mr-6 lg:mr-72">
+      <div className="flex items-center flex-shrink-0 text-gray-600 mr-6 px-20 lg:mr-72">
         <Link to="/">
-          <h2 className="text-3xl text-blue-600 font-semibold ">
-            <span className="text-blue-800">M</span>arket
-            <span className="text-blue-800">M</span>agnet
-          </h2>
+        <img className="w-60" src={logo} alt="" />
         </Link>
       </div>
       <div className="block lg:hidden">
