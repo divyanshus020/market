@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../components/navbar.css";
-import logo from"../assets/assets/MARKETS.png";
+import logo from "../assets/assets/MARKETS.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -12,10 +12,10 @@ const Navbar = () => {
   console.log("hello world", location.pathname);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg">
+    <nav className="flex items-center justify-between flex-wrap p-6 navb-bg bg-gray-200 fixed z-10 min-w-full">
       <div className="flex items-center flex-shrink-0 text-gray-600 mr-6  lg:mr-72">
         <Link to="/">
-        <img className="w-80 h-[90px]" src={logo} alt="" />
+          <img className="w-80 h-[90px]" src={logo} alt="" />
         </Link>
       </div>
       <div className="block lg:hidden">
@@ -62,7 +62,7 @@ const Navbar = () => {
                   href="#aboutus"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600"
                 >
-                 ABOUT US
+                  ABOUT US
                 </a>
                 <a
                   href="#portfolio"

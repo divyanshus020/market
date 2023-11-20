@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +9,7 @@
   font-family: Manrope;
 }
 
-
-
-@media only screen and (min-width: 200px) and (max-width:767px) {
-
+@media only screen and (min-width: 200px) and (max-width: 767px) {
   #landing_1 {
     width: 100%;
     align-items: center;
@@ -24,7 +20,6 @@
     width: 100px;
   }
 
-
   #landing_2 {
     width: 100%;
     align-items: center;
@@ -34,7 +29,6 @@
   #landing_2 img {
     width: 1000px;
   }
-
 
   .hero_seaction_1 {
     width: 100%;
@@ -54,7 +48,6 @@
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     overflow: hidden;
-
   }
 }
 
@@ -71,7 +64,8 @@
 }
 
 @media (max-width: 600px) {
-  .alert_bar {}
+  .alert_bar {
+  }
 }
 
 .alert_1 {
@@ -79,10 +73,8 @@
 }
 
 .aif_1 {
-  box-shadow: 3PX 4px 8px #0000003d;
+  box-shadow: 3px 4px 8px #0000003d;
 }
-
-
 
 .image-grid {
   --gap: 16px;
@@ -97,7 +89,7 @@
   gap: var(--gap);
 }
 
-.image-grid>img {
+.image-grid > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -120,12 +112,10 @@
   }
 }
 
-
-
 #hero-section {
   background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
   min-height: 100vh;
-  background-color: #0e141c;  
+  background-color: #0e141c;
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,19 +124,17 @@
   align-items: stretch;
   display: flex;
   position: relative;
-
 }
 
 /* navbar css */
 
-.navb-bg{
-  background-image: url("https://static.vecteezy.com/system/resources/previews/005/210/108/non_2x/polygonal-mosaic-background-white-low-poly-vector.jpg");
+.navb-bg {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.text-flow{
+.text-flow {
   overflow: hidden;
 }
 
@@ -158,20 +146,18 @@
   margin-left: 20px;
 }
 
-
 @keyframes moveFromRight {
   from {
-      opacity: 0;
-      transform: translateX(100%);
+    opacity: 0;
+    transform: translateX(100%);
   }
   to {
-      opacity: 1;
-      transform: translateX(0);
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
 /* about */
-
 
 .skill-container-right {
   display: flex;
