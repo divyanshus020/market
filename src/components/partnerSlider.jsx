@@ -23,17 +23,17 @@ function PartnerSlider() {
     <div className="flex justify-center items-center w-full"  data-aos="fade-up">
       <div className="relative w-3/4  ">
         <h1 className="text-5xl font-medium mb-8 ">
-          Meet Our <span className="text-cyan-600">Partners</span>
+          Meet Our <span className="text-[#e27e28]">Partners</span>
         </h1>
         <img src={img[index]} className="w-full h-[50vh]" />
         <button
-          className="bg-cyan-500 absolute left-0 top-2/4 w-12 h-12 text-2xl flex justify-center items-center text-white rounded-full"
+          className="bg-[#e27e28] absolute left-0 top-2/4 w-12 h-12 text-2xl flex justify-center items-center text-white rounded-full"
           onClick={prevImg}
         >
           <AiOutlineLeft />
         </button>
         <button
-          className="bg-cyan-500 absolute right-0 top-2/4 w-12 h-12 text-2xl flex justify-center items-center text-white rounded-full"
+          className="bg-[#e27e28] absolute right-0 top-2/4 w-12 h-12 text-2xl flex justify-center items-center text-white rounded-full"
           onClick={nextImg}
         >
           <AiOutlineRight />
