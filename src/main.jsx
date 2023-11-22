@@ -8,6 +8,7 @@ import Aif from "./pages/Aif.jsx";
 import Home from "./pages/Home.jsx";
 import Insider from "./components/insider.jsx";
 import Partner from "./pages/Partner.jsx";
+import Success from "./pages/success.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,9 @@ const router = createBrowserRouter([
         path: "/becomepartner",
         element: <Partner />,
       },
+      {path:"/success",
+       element:<Success/>
+    }
     ],
   },
 ]);

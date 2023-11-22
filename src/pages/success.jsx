@@ -1,6 +1,6 @@
 import React from 'react'
 
-function success() {
+function Success() {
   return (
     <div className='bg1'>
        <section className="wrapper1">
@@ -21,4 +21,4 @@ function success() {
   )
 }
 
-export default success
+export default Success

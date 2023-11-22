@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { useGlobalForm } from "./context";
 import { FaTimes } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function Form() {
   const { isFormOpen, closeForm } = useGlobalForm();
-  console.log("scsdvdsv", isFormOpen);
+  const navigate = useNavigate();
   return (
     <div
       className={
@@ -81,6 +82,9 @@ function Form() {
             <button
               type="submit"
               class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-400"
+              onClick={()=>{
+                navigate("/success");
+              }}
             >
               Submit
             </button>
