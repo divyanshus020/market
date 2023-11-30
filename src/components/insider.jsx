@@ -217,9 +217,9 @@ function Insider() {
             </div>
 
             <div>
-              <h1 className="text-[20px] my-6 mx-6">Property Overview</h1>
+              <h1 className="text-[20px] my-5 mx-6">Property Overview</h1>
               <div>
-                <p className="text-[15px] text-[#5e6475] mx-6">
+                <p className="text-[14px] text-[#5e6475] mx-6">
                   {value.overview}
                 </p>
               </div>

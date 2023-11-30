@@ -2,10 +2,22 @@ import React, { useState } from "react";
 import { useGlobalForm } from "./context";
 import { FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-
 function Form() {
   const { isFormOpen, closeForm } = useGlobalForm();
   const navigate = useNavigate();
+
+   const scriptURL = 'https://script.google.com/macros/s/AKfycbxQYCgMOBOiMI06A6csNsWxCD-pxMmakdtjWbvbvw7nbrmbye7rcezZ9DTJHCBhwszu/exec'
+
+   const form = document.forms['contact-form']
+
+  function handlesubmit(e){
+     e.preventDefault()
+     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+       .then(response => alert("Thank you! your form is submitted successfully."))
+       .then(() => { window.location.reload(); })
+       .catch(error => console.error('Error!', error.message))
+   }
+  
   return (
     <div
       className={
@@ -22,9 +34,11 @@ function Form() {
         >
           <FaTimes />
         </button>
+
         <form
           method="post"
-          action="https://script.google.com/macros/s/AKfycbxQYCgMOBOiMI06A6csNsWxCD-pxMmakdtjWbvbvw7nbrmbye7rcezZ9DTJHCBhwszu/exec"
+          action="" name="contact-form"
+          onSubmit={handlesubmit}
         >
           <div class="mb-4">
             <label for="name" class="block text-gray-600">
@@ -82,7 +96,7 @@ function Form() {
             <button
               type="submit"
               class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-400"
-              onClick={()=>{
+              onClick={() => {
                 navigate("/success");
               }}
             >
