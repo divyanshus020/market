@@ -19,7 +19,7 @@ const ImageSlider = () => {
           <div className="">
             <div id="BoxWrapper">
               <div class="text-flow">
-                <h1 class="animated-text">We invest in the companies of tomorrow, today <span className="text-[#fb923c]">MARKET MAGNET</span>
+                <h1 class="animated-text">Marketplace for Alternative inverstment opprtunity  today <span className="text-[#fb923c] font-Cinzel ">MARKET MAGNET</span>
                 </h1>
               </div>
             </div>

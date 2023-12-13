@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzeldisplay=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 * {
   margin: 0;
@@ -239,10 +243,10 @@
 
 /* become partner */
 
-.father-partner{
+.father-partner {
   background-image: linear-gradient(115deg, #9F7AEA, #FEE2FE);
 }
 
-.bg-father{
+.bg-father {
   background-image: url('https://github.com/phithounsavanh/Tailwind-Simple-Signup-Page/blob/master/images/Register-Background.png?raw=true');
 }

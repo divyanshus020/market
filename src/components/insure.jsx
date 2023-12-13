@@ -208,31 +208,6 @@ function Insure() {
           </div>
         </section>
       </section>
-
-     
-      {/* same for all alert page */}
-      <section className="py-5 flex justify-center" data-aos="fade-up">
-        <div className="flex justify-evenly rounded-3xl bg-[#fff] z-1 alert_1 xl:w-[80%] alert_bar">
-        
-          <div className="w-full">
-            <img
-              src="https://finizon.com/assets/img/grow_investment_icon.svg"
-              alt=""
-            />
-          </div>
-
-          
-          <div className="text-[42px] text-bold">
-            <h1>
-              Grow your family's investment in<br></br>one place
-            </h1>
-          </div>
-
-          <div className="flex flex-col justify-center">
-            <Button text={"Get Started"} />
-          </div>
-        </div>
-      </section>
     </section>
   );
 }
