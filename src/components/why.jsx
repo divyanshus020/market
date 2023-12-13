@@ -1,20 +1,33 @@
-import React from 'react'
+import React from "react";
 
 function Why() {
-    return (
-        <div className='w-full flex justify-center my-20'>
-            <div className='flex justify-center w-[70%]'>
-                <div className='flex flex-col justify-center'>
-                    <h1 className='text-[32px] text-[#465a65] text-bold'>Why MarketMagnet?</h1>
-                    <p className='text-[16px]'>Market Magnet is India's first comprehensive financial services platform addressing all your financial needs across life stages. We collaborate with finance partners across India to guide you towards financial wellness.
-                    </p>
-                </div>
-                <div className='lg:w-2/2'>
-                <img src="https://promorepublic.com/en/blog/wp-content/uploads/2021/10/Depositphotos_218429052_L-1024x683.jpg" alt="" />
-                </div>
-            </div>
-        </div>
-    )
+  return (
+    <div className="w-full m-20">
+      <h1 className="text-5xl text-[#465a65] text-bold ml-16 mb-8">Our Team</h1>
+      <div className="w-full">
+        <ul className="flex items-center justify-around w-4/5">
+          <li>
+            <h2 className="text-2xl">Prakash Sharma</h2>
+            <p className="text-xl text-blue-600">
+              Founder &amp; Chief Executive Officer
+            </p>
+          </li>
+          <li>
+            <h2 className="text-2xl">Rakesh Shankar</h2>
+            <p className="text-xl text-blue-600">Chief Business Officer</p>
+          </li>
+          <li>
+            <h2 className="text-2xl">Surendra Kumar</h2>
+            <p className="text-xl text-blue-600">Chief Marketing Officer</p>
+          </li>
+          <li>
+            <h2 className="text-2xl">Vikash K Naik</h2>
+            <p className="text-xl text-blue-600">Chief Sales Officer</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
-export default Why
+export default Why;

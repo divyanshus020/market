@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Insure from "./components/insure.jsx";
-import Aif from "./pages/Aif.jsx";
+import Opportunities from "./pages/Opportunities.jsx";
 import Home from "./pages/Home.jsx";
 import Insider from "./components/insider.jsx";
 import Partner from "./pages/Partner.jsx";
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
         element: <Insure />,
       },
       {
-        path: "/aif",
-        element: <Aif />,
+        path: "/opportunities",
+        element: <Opportunities />,
       },
       {
         path: "/aif/:id",
@@ -35,9 +35,7 @@ const router = createBrowserRouter([
         path: "/becomepartner",
         element: <Partner />,
       },
-      {path:"/success",
-       element:<Success/>
-    }
+      { path: "/success", element: <Success /> },
     ],
   },
 ]);
