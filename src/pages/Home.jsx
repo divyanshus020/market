@@ -27,7 +27,7 @@ function Home() {
       {/* slash page come after service page */}
       <Slash />
       <Why />
-      <PartnerSlider />
+
       <UserReviews />
       <Services />
       <CompanyLogo />

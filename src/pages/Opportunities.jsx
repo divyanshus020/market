@@ -16,6 +16,16 @@ function Aif() {
     <>
       <Slider />
       <div className="flex justify-center my-20 gap-4 ">
+        <div className="">
+          <select className="w-60 h-16 text-2xl">
+            <option>All</option>
+            <option>Venture Debt</option>
+            <option>Bill Discounting</option>
+            <option>Corporate Debt</option>
+            <option>Asset Backed Investment</option>
+            <option>Insurance Lead</option>
+          </select>
+        </div>
         <div className="flex justify-around bg-white w-[30%] h-20 rounded-full cursor-pointer switch_1">
           <button
             className="text-3xl mx-4 hover:bg-[#41ce8e] rounded-full w-[30%]"

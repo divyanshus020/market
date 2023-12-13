@@ -4,33 +4,33 @@ function Services() {
   const services = [
     {
       img: "https://www.financialsketchers.com/images/fs/cp.png",
-      name: "Collaborative Portfolio",
-      text: "We collaborate multiple financial instruments & currencies to get you a high yield portfolio",
+      name: "Register with us",
+      text: "Instant KYC to start your Investment Journey",
     },
     {
       img: "https://www.financialsketchers.com/images/fs/hni1.png",
-      name: "HNI Exclusive",
-      text: " We work extensively for HNI’s and Super HNI’s Indians or NRI’s with our personal wealth advising",
+      name: "Explore Available Opportunities",
+      text: " Get all relevant details of available opportunities",
     },
     {
       img: "https://www.financialsketchers.com/images/fs/me.png",
-      name: "Merging Economies",
-      text: "We could merge multiple economies across the globe to bring you a comprehensive financial solution",
+      name: "Decide Your Investment",
+      text: "Decide how much you want to Invest",
     },
     {
       img: "https://www.financialsketchers.com/images/fs/rs.png",
-      name: "Retire Safely",
-      text: "We plan for a sound and a high on rich lifestyle retirement for you",
+      name: "You are Angel",
+      text: "Congratulations ,you are Angel Investor now",
     },
     {
       img: "https://www.financialsketchers.com/images/fs/sp.png",
-      name: "Shield & Protect",
-      text: "We shield you and your family with absolute safeguarding strategies",
+      name: "Access Dashboard",
+      text: "Access you dashboard regularly for relevant updates",
     },
     {
       img: "https://www.financialsketchers.com/images/fs/wb.png",
-      name: "Wealth Builder",
-      text: "We create overall wealth for you and your family over time.",
+      name: "Add more Opportunities",
+      text: "More Opportunities are live, come and add to your portfolio",
     },
   ];
   return (
