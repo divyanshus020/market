@@ -9,6 +9,8 @@ import Home from "./pages/Home.jsx";
 import Insider from "./components/insider.jsx";
 import Partner from "./pages/Partner.jsx";
 import Success from "./pages/success.jsx";
+import Form from "./components/form.jsx";
+import Register from "./pages/Register.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,12 +30,16 @@ const router = createBrowserRouter([
         element: <Opportunities />,
       },
       {
-        path: "/aif/:id",
+        path: "/opportunities/:id",
         element: <Insider />,
       },
       {
         path: "/becomepartner",
         element: <Partner />,
+      },
+      {
+        path: "/register",
+        element: <Register />,
       },
       { path: "/success", element: <Success /> },
     ],

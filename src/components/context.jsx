@@ -2,7 +2,7 @@ import { useContext, useState, createContext } from "react";
 
 const AppContext = createContext();
 export const AppProvider = ({ children }) => {
-  const [isFormOpen, setFormOpen] = useState(false);
+  const [isFormOpen, setFormOpen] = useState(true);
   function closeForm() {
     setFormOpen(false);
   }
