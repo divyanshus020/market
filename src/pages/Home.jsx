@@ -10,6 +10,7 @@ import Questions from "../components/Questions";
 import data from "../components/QuestionData";
 import Slash from "../components/slash";
 import Services from "../components/Services";
+import Form from "../components/form";
 function Home() {
   const [questions, setQuestions] = useState(data);
   const [activeId, setActiveId] = useState(null);
@@ -27,7 +28,6 @@ function Home() {
       {/* slash page come after service page */}
       <Slash />
       <Why />
-
       <UserReviews />
       <Services />
       <CompanyLogo />

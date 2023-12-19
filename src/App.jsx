@@ -5,14 +5,13 @@ import Footer from "./components/Footer.jsx";
 import { AppProvider } from "./components/context.jsx";
 import Form from "./components/form.jsx";
 function App() {
-  
   return (
     <>
       <AppProvider>
         <Navbar />
         <Outlet />
         <Footer />
-        <Form />
+        {/* <Form /> */}
       </AppProvider>
     </>
   );
