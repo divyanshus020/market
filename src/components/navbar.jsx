@@ -70,7 +70,7 @@ const Navbar = () => {
                   href="#portfolio"
                   className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 text-xl hover:text-amber-600"
                 >
-                  PORTFOLIO
+                  FAQ
                 </a>
               </li>
             )}
