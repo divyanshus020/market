@@ -8,15 +8,14 @@ const ImageSlider = () => {
         <div>
           <div className="">
             <div id="BoxWrapper">
-              <div class="text-flow ml-8">
-                <span className="text-[#fb923c] text-5xl tracking-widest ">
-                  MARKET MAGNET
+              <div class="text-flow ml-8 animated-text">
+                <span className="text-[#3a41bd] text-[40px] text-bold tracking-widest">
+                STAKONER
                 </span>
-                <h1 class="animated-text">
-                  We invest in the companies of tomorrow to Alternative
-                  Investment Opportunity Marketplace for Retail Investors.{" "}
+                <h1 class="animated-text text-bold">
+                  Alternative Investment Opportunity Marketplace for Retail Investors.
                 </h1>
-                <p className=" text-[#fb923c] text-3xl tracking-widest mt-4">
+                <p className=" text-[#fff] text-3xl tracking-widest mt-4 italic">
                   Create Long term wealth by becoming Angel Investor.
                 </p>
               </div>
