@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { DevTool } from "@hookform/devtools";
+// import { DevTool } from "@hookform/devtools";
 
 function RegisterForm() {
   const form = useForm();
@@ -168,7 +168,7 @@ function RegisterForm() {
           Sign Up
         </button>
       </form>
-      <DevTool control={control} />
+      {/* <DevTool control={control} /> */}
     </div>
   );
 }
