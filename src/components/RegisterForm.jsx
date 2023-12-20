@@ -1,13 +1,20 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { DevTool } from "@hookform/devtools";
+import axios from "axios";
 
 function RegisterForm() {
   const form = useForm();
+  const registerUrl = "http://localhost:4000/api/v1/auth/signup";
   const { register, control, handleSubmit, formState } = form;
   const { errors } = formState;
-  const onSubmit = (data) => {
-    console.log("our data ", data);
+  const onSubmit = async (data) => {
+    // console.log("our data ", data);
+    const jsonData = JSON.stringify(data);
+    console.log(jsonData);
+
+    const response = await axios.post(registerUrl, data);
+    console.log("response", response);
   };
   return (
     <div className="w-3/4 md:w-1/2 lg:w-1/3 mx-auto mt-40">
@@ -91,7 +98,7 @@ function RegisterForm() {
           <p className="text-rose-800 text-lg">{errors.email?.message}</p>
         </div>
 
-        <div>
+        {/* <div>
           <label
             htmlFor="contactNumber"
             className="block text-xl font-medium text-gray-700"
@@ -114,7 +121,7 @@ function RegisterForm() {
           <p className="text-rose-800 text-lg">
             {errors.contactNumber?.message}
           </p>
-        </div>
+        </div> */}
         <div>
           <label
             htmlFor="password"
